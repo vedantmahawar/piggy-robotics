@@ -20,22 +20,16 @@ export default function Footer() {
         </Link>
         <div className="flex flex-row gap-20">
           <div>
-            <p className="font-semibold mb-1">Boilerplate</p>
-            <Link href="/boilterplate">
-              <p>Boilerplate</p>
-            </Link>
-          </div>
-          <div>
-            <p className="font-semibold mb-1">Boilerplate</p>
-            <Link href="/boilerplate">
-              <p>Boilerplate</p>
+            <p className="font-semibold mb-1">Company</p>
+            <Link href="/our-team">
+              <p>Our Team</p>
             </Link>
           </div>
         </div>
       </div>
       <div className="w-full mx-auto max-w-6xl flex justify-between py-5 px-5 xl:px-0">
         <p>
-          © 2025 Boilerplate. <br className="sm:hidden" />
+          © 2025 Piggy Robotics. <br className="sm:hidden" />
           Designed by{" "}
           <ExternalLink link="https://www.vedantmahawar.com" color="nocolor">
             Vedant Mahawar
