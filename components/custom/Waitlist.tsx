@@ -44,7 +44,11 @@ export default function Waitlist({ id }: { id?: string }) {
   }
 
   return (
-    <form onSubmit={form.handleSubmit(onSubmit)} className="w-full max-w-xs sm:max-w-md" noValidate>
+    <form
+      onSubmit={form.handleSubmit(onSubmit)}
+      className="w-full max-w-xs sm:max-w-md"
+      noValidate
+    >
       <Field className="relative">
         <div className="relative flex items-center">
           <Input
@@ -63,7 +67,9 @@ export default function Waitlist({ id }: { id?: string }) {
           )}
         </div>
         {form.formState.errors.email && (
-          <FieldError className="absolute left-0 top-full mt-3" >{form.formState.errors.email.message}</FieldError>
+          <FieldError className="absolute left-0 top-full mt-3">
+            {form.formState.errors.email.message}
+          </FieldError>
         )}
       </Field>
     </form>

@@ -15,13 +15,13 @@ export default function NotFound() {
         moved or no longer exists.
       </h3>
       <Link href="/">
-          <Button
-        type="submit"
-        className="cursor-pointer font-normal h-10 shadow-lg shadow-black/30 transition-all hover:scale-[1.05]"
-      >
-        Go to homepage
-      </Button>
-        </Link>{" "}
+        <Button
+          type="submit"
+          className="cursor-pointer font-normal h-10 shadow-lg shadow-black/30 transition-all hover:scale-[1.05]"
+        >
+          Go to homepage
+        </Button>
+      </Link>{" "}
     </div>
   );
 }

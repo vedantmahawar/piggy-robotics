@@ -4,8 +4,7 @@
 
 export default async function addToWaitlist(formData: FormData) {
   const email = formData.get("email");
-  const url =
-    "";
+  const url = "";
 
   const response = await fetch(url, {
     method: "POST",

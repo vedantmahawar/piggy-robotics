@@ -97,7 +97,9 @@ export default function Integrations({
               >
                 {output}
               </div>
-              <p className="hidden sm:block text-md font-medium">{outputLabels[idx]}</p>
+              <p className="hidden sm:block text-md font-medium">
+                {outputLabels[idx]}
+              </p>
             </div>
           ))}
         </div>

@@ -6,4 +6,4 @@ export type Brand = {
 export type FaqItem = {
   question: string;
   answer: string;
-}
+};
