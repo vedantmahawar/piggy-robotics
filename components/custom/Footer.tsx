@@ -15,7 +15,7 @@ export default function Footer() {
             alt="Logo"
             width={100}
             height={100}
-            className="w-24 sm:w-32"
+            className="w-16 sm:w-20"
           />
         </Link>
         <div className="flex flex-row gap-20">

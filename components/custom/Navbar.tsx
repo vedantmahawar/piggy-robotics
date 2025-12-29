@@ -11,7 +11,7 @@ export default function Navbar() {
           alt="Logo"
           width={100}
           height={100}
-          className="absolute top-10 w-24 sm:w-32"
+          className="absolute top-10 w-16 sm:w-20"
         />
       </Link>
     </div>
