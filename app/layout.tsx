@@ -13,8 +13,8 @@ import "./globals.css";
 import { poppins } from "./fonts";
 
 export const metadata: Metadata = {
-  title: "Specific",
-  description: "Build a backend in minutes",
+  title: "Piggy robotics",
+  description: "Humanoids for the price of an iPhone",
 };
 
 export default function RootLayout({
