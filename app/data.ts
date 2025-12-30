@@ -20,16 +20,16 @@ export type ComparisonData = {
 export const comparisonData = {
   features: [
     "Price",
-    "First Prototype Development Time",
+    "Prototype Time",
     "Actuator Type",
-    "Hand Degrees of Freedom",
-    "Size of Team",
+    "Hand DOF",
+    "Team Size",
   ],
   competitors: [
     {
       name: "Piggy Robotics",
       highlighted: true,
-      values: ["<$1000", "1 month", "Artifical muscles", "22", "16"],
+      values: ["<$1,000", "1 month", "Artifical muscles", "22", "16"],
     },
     // Tesla
     {
