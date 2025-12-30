@@ -4,22 +4,11 @@ import TextType from "@/components/ui/TextType";
 
 // custom components
 import BackedYC from "@/components/custom/BackedYC";
-import Integrations from "@/components/custom/Integrations";
 import ViewportElement from "@/components/custom/ViewportElement";
 import FloatingIcon from "@/components/custom/FloatingIcon";
-import FAQ from "@/components/custom/FAQ";
 import Waitlist from "@/components/custom/Waitlist";
 import ComparsionTable from "@/components/custom/ComparisonTable";
-
-// icons
-import {
-  Database,
-  FingerprintPattern,
-  Folder,
-  CreditCard,
-  Bot,
-  Network,
-} from "lucide-react";
+import { Globe } from "@/components/ui/globe"
 
 // icons
 import {
@@ -34,7 +23,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 pt-30 pb-20 sm:py-40 text-center text-balance flex flex-col items-center">
+      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 pt-30 pb-10 sm:py-40 text-center text-balance flex flex-col items-center">
         <BackedYC link="https://www.ycombinator.com/companies/piggy-robotics" />
         <h1 className="tracking-tight text-5xl sm:text-6xl font-semibold mb-2">
           Humanoids for the <br /> price of an iPhone
@@ -44,19 +33,24 @@ export default function Home() {
         </h2>
       </div>
       {/* Our Belief */}
-      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-40 text-balance text-center">
-        <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
-          Our Belief
-        </h4>
-        <h2 className="text-4xl sm:text-5xl font-medium mb-2">
-          Mass production before autonomy
-        </h2>
-        <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
-          Tesla required billions of miles of driving data from millions of
-          vehicles worldwide to enable self driving with just two degrees of
-          freedom. Humanoids have &gt;50 degrees of freedom, meaning they
-          require much more data to reach autonomy.
-        </h3>
+      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-20 text-balance text-left flex flex-row justify-center items-center">
+        <div>
+          <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
+            Our Belief
+          </h4>
+          <h2 className="text-4xl sm:text-5xl font-medium mb-2">
+            Mass production before autonomy
+          </h2>
+          <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
+            Tesla required billions of miles of driving data from millions of
+            vehicles worldwide to enable self driving with just two degrees of
+            freedom. Humanoids have &gt;50 degrees of freedom, meaning they
+            require much more data to reach autonomy.
+          </h3>
+        </div>
+        <div className="relative size-120 shrink-0">
+          <Globe />
+        </div>
       </div>
       {/* Cost */}
       <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-40 text-balance text-right">
