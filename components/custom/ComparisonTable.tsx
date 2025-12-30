@@ -9,7 +9,7 @@ import {
 
 import { ComparisonData } from "@/app/data";
 
-import { BorderBeam } from "@/components/ui/border-beam"
+import { BorderBeam } from "@/components/ui/border-beam";
 
 export default function ComparsionTable({ data }: { data: ComparisonData }) {
   return (
@@ -46,8 +46,19 @@ export default function ComparsionTable({ data }: { data: ComparisonData }) {
           ))}
         </TableBody>
       </Table>
-      <BorderBeam borderWidth={2} duration={15} colorFrom="#a3a3a3" colorTo="#909090ff" />
-      <BorderBeam delay={7.5} borderWidth={2} duration={15} colorFrom="#a3a3a3" colorTo="#909090ff" />
+      <BorderBeam
+        borderWidth={2}
+        duration={15}
+        colorFrom="#a3a3a3"
+        colorTo="#909090ff"
+      />
+      <BorderBeam
+        delay={7.5}
+        borderWidth={2}
+        duration={15}
+        colorFrom="#a3a3a3"
+        colorTo="#909090ff"
+      />
     </div>
   );
 }
