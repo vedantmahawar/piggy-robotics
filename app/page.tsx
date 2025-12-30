@@ -119,37 +119,38 @@ export default function Home() {
           Use Cases
         </h4>
         <h2 className="text-4xl sm:text-5xl font-medium mb-2">
-          Never do your chores again
+          Access the inaccesible
         </h2>
         <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
-          Only capable of manufacturing a few hundred humanoids per year.  A household robot cannot be a 70kg, $20,000 metal beast.
+          Whether it's in the
+          <span className="text-orange-400 font-medium"> desert</span>, atop
+          remote 
+          <span className="text-indigo-600 font-medium"> mountain </span>
+          summits, in the vast
+          <span className="text-blue-400 font-medium"> oceans</span>, or deep in
+          the
+          <span className="text-emerald-600 font-medium"> forest</span>, Earth is
+          filled with places mass-produced humanoids could make accessible to
+          humanity.
         </h3>
-        <div className="sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-4">
+        <div className="sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-6">
           <div className="aspect-video">
             <Image
               src="/useCases/desert.jpg"
               alt="Desert"
               width={3553}
               height={1987}
-              className="w-full h-full object-cover rounded-md pointer-events-none select-none"
+              className="w-full h-full object-cover rounded-xl pointer-events-none select-none shadow-xl"
             />
           </div>
-          <div className="aspect-video">
-            <Image
-              src="/useCases/forest.webp"
-              alt="Forest"
-              width={1350}
-              height={900}
-              className="w-full h-full object-cover rounded-md pointer-events-none select-none"
-            />
-          </div>
+
           <div className="aspect-video">
             <Image
               src="/useCases/mountain.jpg"
               alt="Mountain"
               width={3000}
               height={2000}
-              className="w-full h-full object-cover rounded-md pointer-events-none select-none"
+              className="w-full h-full object-cover rounded-xl pointer-events-none select-none shadow-xl"
             />
           </div>
           <div className="aspect-video">
@@ -158,7 +159,16 @@ export default function Home() {
               alt="Ocean"
               width={1280}
               height={853}
-              className="w-full h-full object-cover rounded-md pointer-events-none select-none"
+              className="w-full h-full object-cover rounded-xl pointer-events-none select-none shadow-xl"
+            />
+          </div>
+          <div className="aspect-video">
+            <Image
+              src="/useCases/forest.webp"
+              alt="Forest"
+              width={1350}
+              height={900}
+              className="w-full h-full object-cover rounded-xl pointer-events-none select-none shadow-xl"
             />
           </div>
         </div>
