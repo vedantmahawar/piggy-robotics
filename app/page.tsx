@@ -1,6 +1,7 @@
 // default components
 import { Button } from "@/components/ui/button";
 import TextType from "@/components/ui/TextType";
+import { Iphone } from "@/components/ui/iphone";
 
 // custom components
 import BackedYC from "@/components/custom/BackedYC";
@@ -8,22 +9,22 @@ import ViewportElement from "@/components/custom/ViewportElement";
 import FloatingIcon from "@/components/custom/FloatingIcon";
 import Waitlist from "@/components/custom/Waitlist";
 import ComparsionTable from "@/components/custom/ComparisonTable";
-import { Globe } from "@/components/ui/globe"
+import { Globe } from "@/components/ui/globe";
 
 // icons
-import {
-  CircleDollarSign,
-  ChartNoAxesCombined
-} from "lucide-react";
+import { CircleDollarSign, ChartNoAxesCombined } from "lucide-react";
 
 // data
 import { comparisonData } from "@/app/data";
+
+// Next
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 pt-30 pb-10 sm:py-40 text-center text-balance flex flex-col items-center">
+      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 pt-30 pb-20 sm:pt-40 pb-20 text-center text-balance flex flex-col items-center">
         <BackedYC link="https://www.ycombinator.com/companies/piggy-robotics" />
         <h1 className="tracking-tight text-5xl sm:text-6xl font-semibold mb-2">
           Humanoids for the <br /> price of an iPhone
@@ -33,7 +34,7 @@ export default function Home() {
         </h2>
       </div>
       {/* Our Belief */}
-      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-20 text-balance text-left flex flex-row justify-center items-center">
+      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0  text-balance text-left flex flex-row justify-center items-center">
         <div>
           <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
             Our Belief
@@ -53,16 +54,20 @@ export default function Home() {
         </div>
       </div>
       {/* Cost */}
-      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-40 text-balance text-right">
-        <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
-          Cost
-        </h4>
-        <h2 className="text-4xl sm:text-5xl font-medium mb-2">
-          As cheap as an iPhone
-        </h2>
-        <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
-          To achieve mass production we've built a robot for &lt;$1,000 dollars.
-        </h3>
+      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance text-right -mt-30 -mb-10 ">
+        <Iphone className="-z-10 rotate-90 h-200">
+          <div className="size-full flex flex-col items-center justify-center text-center rotate-270 pe-11 max-w-3xl">
+            <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
+              Cost
+            </h4>
+            <h2 className="text-4xl sm:text-5xl font-medium mb-2">
+              As cheap as an iPhone
+            </h2>
+            <h3 className="text-lg sm:text-xl font-normal text-neutral-500 px-10">
+             To achieve mass production we've built a humanoid for &lt;$1,000. The world already buys a billion smartphones a year, a billion humanoids are next.
+            </h3>
+          </div>
+        </Iphone>
       </div>
       {/* The Technology (muscles section) */}
       <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-40 text-balance text-left">
@@ -73,32 +78,31 @@ export default function Home() {
           Proprietary artificial muscles
         </h2>
         <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
-          Our humanoid is so cheap because we've designed it around low-cost artificial muscles
-          from day one.
+          Our humanoid is so cheap because we've designed it around low-cost
+          artificial muscles from day one.
         </h3>
         <div className="flex flex-row gap-10">
           <div className="border rounded-md p-4 shadow-xl">
             <CircleDollarSign className="text-blue-500 mb-2" />
-              <h3 className="text-xl sm:text-2xl font-medium">Low-cost</h3>
-              <p className="text-md sm:text-lg text-neutral-500">
-                Unlike competitors who use electric actuators our artificial
-                muscles are much cheaper, and more human
-              </p>
+            <h3 className="text-xl sm:text-2xl font-medium">Low-cost</h3>
+            <p className="text-md sm:text-lg text-neutral-500">
+              Unlike competitors who use electric actuators our artificial
+              muscles are much cheaper, and more human
+            </p>
           </div>
           <div className="border rounded-md p-4 shadow-xl">
-           <ChartNoAxesCombined className="text-blue-500 mb-2" />
+            <ChartNoAxesCombined className="text-blue-500 mb-2" />
             <h3 className="text-xl sm:text-2xl font-medium">
               Easily mass producible
             </h3>
             <p className="text-md sm:text-lg text-neutral-500">
-              Each muscle is just a tube wrapped in braided fibre, and the whole robot is powered by a single pump
+              Each muscle is just a tube wrapped in braided fibre, and the whole
+              robot is powered by a single pump
             </p>
           </div>
-                      {/* designed to scale a graph of exponetial growth */}
-            {/* globe,  */}
+          {/* designed to scale a graph of exponetial growth */}
         </div>
         {/* hip actuator for tesla is 200 dollars alone */}
-
       </div>
       {/* Our Competitors */}
       <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-40 text-balance text-center">
@@ -172,6 +176,19 @@ export default function Home() {
             />
           </div>
         </div>
+      </div>
+      {/* Use Cases */}
+      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-40 text-balance text-left">
+        <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
+          Use Cases
+        </h4>
+        <h2 className="text-4xl sm:text-5xl font-medium mb-2">
+          Never do your chores again - not only for wealt
+        </h2>
+        <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
+          Only capable of manufacturing a few hundred humanoids per year. A
+          household robot cannot be a 70kg, $20,000 metal beast.
+        </h3>
       </div>
       {/* Somewhere mention that it does your chores? mayeb give examples earlier, playing tennis picking balls?)*/}
       {/* mass > auto -> imagine your in the desert, deep in the forest, deep underwater, middle of the  pacific, theres no infrastructure, imagine you could big a massive solar farm -> the possibilities are endless o */}
