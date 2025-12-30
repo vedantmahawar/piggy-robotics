@@ -124,6 +124,44 @@ export default function Home() {
         <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
           Only capable of manufacturing a few hundred humanoids per year.  A household robot cannot be a 70kg, $20,000 metal beast.
         </h3>
+        <div className="sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-4">
+          <div className="aspect-video">
+            <Image
+              src="/useCases/desert.jpg"
+              alt="Desert"
+              width={3553}
+              height={1987}
+              className="w-full h-full object-cover rounded-md pointer-events-none select-none"
+            />
+          </div>
+          <div className="aspect-video">
+            <Image
+              src="/useCases/forest.webp"
+              alt="Forest"
+              width={1350}
+              height={900}
+              className="w-full h-full object-cover rounded-md pointer-events-none select-none"
+            />
+          </div>
+          <div className="aspect-video">
+            <Image
+              src="/useCases/mountain.jpg"
+              alt="Mountain"
+              width={3000}
+              height={2000}
+              className="w-full h-full object-cover rounded-md pointer-events-none select-none"
+            />
+          </div>
+          <div className="aspect-video">
+            <Image
+              src="/useCases/ocean.jpg"
+              alt="Ocean"
+              width={1280}
+              height={853}
+              className="w-full h-full object-cover rounded-md pointer-events-none select-none"
+            />
+          </div>
+        </div>
       </div>
       {/* Somewhere mention that it does your chores? mayeb give examples earlier, playing tennis picking balls?)*/}
       {/* mass > auto -> imagine your in the desert, deep in the forest, deep underwater, middle of the  pacific, theres no infrastructure, imagine you could big a massive solar farm -> the possibilities are endless o */}
