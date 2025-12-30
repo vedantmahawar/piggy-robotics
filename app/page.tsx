@@ -64,7 +64,9 @@ export default function Home() {
               As cheap as an iPhone
             </h2>
             <h3 className="text-lg sm:text-xl font-normal text-neutral-500 px-10">
-             To achieve mass production we've built a humanoid for &lt;$1,000. The world already buys a billion smartphones a year, a billion humanoids are next.
+              To achieve mass production we've built a humanoid for &lt;$1,000.
+              The world already buys a billion smartphones a year, a billion
+              humanoids are next.
             </h3>
           </div>
         </Iphone>
@@ -128,16 +130,16 @@ export default function Home() {
         <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
           Whether it's in the
           <span className="text-orange-400 font-medium"> desert</span>, atop
-          remote 
+          remote
           <span className="text-indigo-600 font-medium"> mountain </span>
-          summits, in the vast
-          <span className="text-blue-400 font-medium"> oceans</span>, or deep in
+          summits, across the vast
+          <span className="text-blue-400 font-medium"> ocean</span>, or deep in
           the
-          <span className="text-emerald-600 font-medium"> forest</span>, Earth is
-          filled with places mass-produced humanoids could make accessible to
+          <span className="text-emerald-600 font-medium"> forest</span>, Earth
+          is filled with places mass-produced humanoids could make accessible to
           humanity.
         </h3>
-        <div className="sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-6">
+        <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-6 mb-20">
           <div className="aspect-video">
             <Image
               src="/useCases/desert.jpg"
@@ -147,7 +149,6 @@ export default function Home() {
               className="w-full h-full object-cover rounded-xl pointer-events-none select-none shadow-xl"
             />
           </div>
-
           <div className="aspect-video">
             <Image
               src="/useCases/mountain.jpg"
@@ -176,36 +177,34 @@ export default function Home() {
             />
           </div>
         </div>
+        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-40 text-balance text-right">
+          <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
+            Use Cases
+          </h4>
+          <h2 className="text-4xl sm:text-5xl font-medium mb-2">
+            Never do your chores again
+          </h2>
+          <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
+            We believe in making humanoids accessible to all,
+            not just the wealthy. Whether it's cleaning your dishes or your
+            bathroom, a humanoid can do it all.
+          </h3>
+        </div>
+        {/* The Team Making it Possible -> we know this isnt' easy, 15 of the best robotics champions */}
+        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-40 text-balance text-center">
+          <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
+            The Team
+          </h4>
+          <h2 className="text-4xl sm:text-5xl font-medium mb-2">
+            Making the impossible possible
+          </h2>
+          <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
+            Speed is the cultural at Piggy Robotics. We're a team of Oxford
+            engineers & global robotics competition champions.
+          </h3>
+        </div>
+        {/* Final CTA -> the most capital-efficient humanoid company helps us envision a world where no one does chores ( -> get in contact */}
       </div>
-      {/* Use Cases */}
-      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-40 text-balance text-left">
-        <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
-          Use Cases
-        </h4>
-        <h2 className="text-4xl sm:text-5xl font-medium mb-2">
-          Never do your chores again - not only for wealt
-        </h2>
-        <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
-          Only capable of manufacturing a few hundred humanoids per year. A
-          household robot cannot be a 70kg, $20,000 metal beast.
-        </h3>
-      </div>
-      {/* Somewhere mention that it does your chores? mayeb give examples earlier, playing tennis picking balls?)*/}
-      {/* mass > auto -> imagine your in the desert, deep in the forest, deep underwater, middle of the  pacific, theres no infrastructure, imagine you could big a massive solar farm -> the possibilities are endless o */}
-      {/* The Team Making it Possible -> we know this isnt' easy, 15 of the best robotics champions */}
-      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-40 text-balance text-right">
-        <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
-          The Team
-        </h4>
-        <h2 className="text-4xl sm:text-5xl font-medium mb-2">
-          Making the impossible possible
-        </h2>
-        <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
-          Speed is the cultural at Piggy Robotics. We're a team of Oxford
-          engineers & global robotics competition champions.
-        </h3>
-      </div>
-      {/* Final CTA -> the most capital-efficient humanoid company helps us envision a world where no one does chores ( -> get in contact */}
     </div>
   );
 }
