@@ -9,7 +9,7 @@ import ViewportElement from "@/components/custom/ViewportElement";
 import FloatingIcon from "@/components/custom/FloatingIcon";
 import Waitlist from "@/components/custom/Waitlist";
 import ComparsionTable from "@/components/custom/ComparisonTable";
-import { Globe } from "@/components/ui/globe";
+
 
 // icons
 import { CircleDollarSign, ChartNoAxesCombined } from "lucide-react";
