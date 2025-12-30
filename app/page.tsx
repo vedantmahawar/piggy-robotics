@@ -9,7 +9,7 @@ import ViewportElement from "@/components/custom/ViewportElement";
 import FloatingIcon from "@/components/custom/FloatingIcon";
 import FAQ from "@/components/custom/FAQ";
 import Waitlist from "@/components/custom/Waitlist";
-import ComparisonTable from "@/components/custom/ComparisonTable";
+import ComparsionTable from "@/components/custom/ComparisonTable";
 
 // icons
 import {
@@ -98,7 +98,7 @@ export default function Home() {
         <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
           Only capable of manufacturing a few hundred humanoids per year.
         </h3>
-        <ComparisonTable data={comparisonData}/>
+        <ComparsionTable data={comparisonData}/>
       </div>
       {/* Use Cases */}
       <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-40 text-balance text-left">
