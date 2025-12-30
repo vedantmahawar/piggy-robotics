@@ -233,20 +233,16 @@ export default function Home() {
             humanoid can do it all.
           </h3>
         </div>
-        {/* The Team Making it Possible -> we know this isnt' easy, 15 of the best robotics champions */}
+        {/* Final CTA */}
         <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-40 text-balance text-center">
-          <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
-            The Team
-          </h4>
           <h2 className="text-4xl sm:text-5xl font-medium mb-2">
             Making the impossible possible
           </h2>
           <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
-            Speed is the cultural at Piggy Robotics. We're a team of Oxford
+            We're the most capital-efficient humanoid company, run by Oxford
             engineers & global robotics competition champions.
           </h3>
         </div>
-        {/* Final CTA -> the most capital-efficient humanoid company helps us envision a world where no one does chores ( -> get in contact */}
       </div>
     </div>
   );
