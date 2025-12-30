@@ -5,10 +5,14 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <div className="w-full max-w-6xl mx-auto px-8 xl:px-0">
+      <div
+        className="absolute right-0 top-0 h-80 w-40 -z-10 blur-2xl 
+              bg-radial-[at_top_right] from-red-200/40 via-orange-200/40 to-transparent "
+      ></div>
       <Link href="/">
         <Image
           src="/logo.png"
-          alt="Logo"
+          alt="Piggy Robotics Logo"
           width={100}
           height={100}
           className="absolute top-10 w-16 sm:w-20"
