@@ -2,6 +2,8 @@
 import { Button } from "@/components/ui/button";
 import TextType from "@/components/ui/TextType";
 import { Iphone } from "@/components/ui/iphone";
+import { Globe } from "@/components/ui/globe";
+import StripedPattern from "@/components/ui/striped-pattern";
 
 // custom components
 import BackedYC from "@/components/custom/BackedYC";
@@ -9,7 +11,6 @@ import ViewportElement from "@/components/custom/ViewportElement";
 import FloatingIcon from "@/components/custom/FloatingIcon";
 import Waitlist from "@/components/custom/Waitlist";
 import ComparsionTable from "@/components/custom/ComparisonTable";
-
 
 // icons
 import { CircleDollarSign, ChartNoAxesCombined } from "lucide-react";
@@ -83,8 +84,13 @@ export default function Home() {
           Our humanoid is so cheap because we've designed it around low-cost
           artificial muscles from day one.
         </h3>
-        <div className="grid grid-rows-2 grid-cols-3 border-dashed border-3">
-          <div className="p-4 row-span-1 col-span-2 row-start-1 col-start-1 border-b-3 border-r-3 border-dashed flex flex-col justify-center items-center">
+        <div className="grid grid-rows-2 grid-cols-12 border-dashed border-3">
+          {/* Striped */}
+          <div className="row-span-2 col-span-1 row-start-1 col-start-1 relative flex h-full w-full flex-col items-center justify-center overflow-hidden border-r-3 border-dashed ">
+            <StripedPattern className="[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]" />
+          </div>
+          {/* Low Cost */}
+          <div className="p-4 row-span-1 col-span-6 row-start-1 col-start-2 border-b-3 border-r-3 border-dashed flex flex-col justify-center items-center">
             <CircleDollarSign className="text-blue-500 mb-2" />
             <h3 className="text-xl sm:text-2xl font-medium">Low-cost</h3>
             <p className="text-md sm:text-lg text-neutral-500 text-center">
@@ -92,7 +98,8 @@ export default function Home() {
               muscles are much cheaper, and more human
             </p>
           </div>
-          <div className="p-4 row-span-1 col-span-2 row-start-2 col-start-1 border-r-3 border-dashed flex flex-col justify-center items-center">
+          {/* Mass */}
+          <div className="p-4 row-span-1 col-span-6 row-start-2 col-start-2 border-r-3 border-dashed flex flex-col justify-center items-center">
             <ChartNoAxesCombined className="text-blue-500 mb-2" />
             <h3 className="text-xl sm:text-2xl font-medium">
               Easily mass producible
@@ -102,7 +109,12 @@ export default function Home() {
               robot is powered by a single pump
             </p>
           </div>
-          <div className="row-span-2 col-span-1 row-start-1 col-start-3 relative aspect-[1/1]">
+          {/* Striped */}
+          <div className="row-span-2 col-span-1 row-start-1 col-start-8 relative flex h-full w-full flex-col items-center justify-center overflow-hidden border-r-3 border-dashed ">
+            <StripedPattern className="[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]" />
+          </div>
+          {/* Graphic */}
+          <div className="row-span-2 col-span-4 row-start-1 col-start-9 relative aspect-[1/1]">
             <svg
               className="absolute inset-0 w-full h-full"
               viewBox="0 0 75 75"
