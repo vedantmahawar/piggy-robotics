@@ -71,8 +71,8 @@ export default function Home() {
           </div>
         </Iphone>
       </div>
-      {/* The Technology (muscles section) */}
-      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-40 text-balance text-left">
+      {/* The Technology */}
+      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 mb-20 sm:mb-40 text-balance">
         <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
           Technology
         </h4>
@@ -83,26 +83,57 @@ export default function Home() {
           Our humanoid is so cheap because we've designed it around low-cost
           artificial muscles from day one.
         </h3>
-        <div className="flex flex-row gap-10">
-          <div className="border rounded-md p-4 shadow-xl">
+        <div className="grid grid-rows-2 grid-cols-3 border-dashed border-3">
+          <div className="p-4 row-span-1 col-span-2 row-start-1 col-start-1 border-b-3 border-r-3 border-dashed flex flex-col justify-center items-center">
             <CircleDollarSign className="text-blue-500 mb-2" />
             <h3 className="text-xl sm:text-2xl font-medium">Low-cost</h3>
-            <p className="text-md sm:text-lg text-neutral-500">
+            <p className="text-md sm:text-lg text-neutral-500 text-center">
               Unlike competitors who use electric actuators our artificial
               muscles are much cheaper, and more human
             </p>
           </div>
-          <div className="border rounded-md p-4 shadow-xl">
+          <div className="p-4 row-span-1 col-span-2 row-start-2 col-start-1 border-r-3 border-dashed flex flex-col justify-center items-center">
             <ChartNoAxesCombined className="text-blue-500 mb-2" />
             <h3 className="text-xl sm:text-2xl font-medium">
               Easily mass producible
             </h3>
-            <p className="text-md sm:text-lg text-neutral-500">
+            <p className="text-md sm:text-lg text-neutral-500 text-center">
               Each muscle is just a tube wrapped in braided fibre, and the whole
               robot is powered by a single pump
             </p>
           </div>
-          {/* designed to scale a graph of exponetial growth */}
+          <div className="row-span-2 col-span-1 row-start-1 col-start-3 relative aspect-[1/1]">
+            <svg
+              className="absolute inset-0 w-full h-full"
+              viewBox="0 0 75 75"
+              strokeWidth="1"
+              strokeLinecap="round"
+            >
+              <defs>
+                <linearGradient
+                  id="wave-gradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="0%"
+                >
+                  <stop offset="0%" stopColor="#60A5FA" />
+                  <stop offset="70%" stopColor="#A78BFA" />
+                  <stop offset="100%" stopColor="#F472B6" />
+                </linearGradient>
+              </defs>
+              <path
+                d="M 5,70 A 65 65 0 0 0 70,5"
+                fill="none"
+                stroke="url(#wave-gradient)"
+              />
+            </svg>
+            <p className="absolute bottom-10 left-6 font-semibold">2026</p>
+            <p className="text-right absolute top-5 right-12 font-semibold">
+              1 billion
+              <br /> humanoids
+            </p>
+          </div>
         </div>
         {/* hip actuator for tesla is 200 dollars alone */}
       </div>
@@ -185,9 +216,9 @@ export default function Home() {
             Never do your chores again
           </h2>
           <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
-            We believe in making humanoids accessible to all,
-            not just the wealthy. Whether it's cleaning your dishes or your
-            bathroom, a humanoid can do it all.
+            We believe in making humanoids accessible to all, not just the
+            wealthy. Whether it's cleaning your dishes or your bathroom, a
+            humanoid can do it all.
           </h3>
         </div>
         {/* The Team Making it Possible -> we know this isnt' easy, 15 of the best robotics champions */}
