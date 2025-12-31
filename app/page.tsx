@@ -197,7 +197,7 @@ export default function Home() {
       </div>
       {/* Use Cases */}
       <div className="w-full border-t-2 border-b-2 border-dashed border-neutral-300 relative">
-        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 border-2 border-neutral-300 bg-[#f9f9f9] -my-[2px] text-balance text-left p-10 sm:py-20">
+        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 border-t-2 border-b-2 xl:border-l-2 xl:border-r-2 border-neutral-300 bg-[#f9f9f9] -my-[2px] text-balance text-left p-10 sm:py-20">
           <div className="sm:px-10">
             <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
               Use Cases
@@ -273,7 +273,7 @@ export default function Home() {
       </div>
       {/* Final CTA */}
       <div className="w-full border-b-2 border-dashed border-neutral-300 relative">
-        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance text-center py-30 border-l-2 border-r-2 border-dashed border-neutral-300">
+        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance text-center py-20 sm:py-30 xl:border-l-2 xl:border-r-2 border-dashed border-neutral-300">
           <h2 className="text-4xl sm:text-5xl font-medium mb-2">
             Making the impossible possible
           </h2>
