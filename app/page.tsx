@@ -274,21 +274,23 @@ export default function Home() {
         </div>
       </div>
       {/* Final CTA */}
-      <div className="w-full border-b-2 border-dashed border-neutral-300 relative">
-        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance text-center py-20 sm:py-30 xl:border-l-2 xl:border-r-2 border-dashed border-neutral-300">
-          <h2 className="text-4xl sm:text-5xl font-medium mb-2">
-            Making the impossible possible
-          </h2>
-          <h3 className="text-lg sm:text-xl font-normal text-neutral-500">
-            We're the most capital-efficient humanoid company, run by Oxford
-            engineers & global robotics competition champions.
-          </h3>
+      <div className="w-full sm:border-b-2 border-dashed border-neutral-300 relative">
+        <div className="w-full max-w-6xl mx-auto xl:px-0 text-balance text-center xl:border-l-2 xl:border-r-2 border-dashed border-neutral-300 relative">
           <DotPattern
             glow={true}
             className={
-              "-z-10 [mask-image:radial-gradient(700px_circle_at_center,white,transparent)]"
+              "-z-10 [mask-image:radial-gradient(400px_circle_at_center,white,transparent)]"
             }
           />
+          <div className="border-b-2 border-neutral-300 py-20 sm:py-30 -my-[2px] px-8">
+            <h2 className="text-4xl sm:text-5xl font-medium mb-2">
+              Making the impossible possible
+            </h2>
+            <h3 className="text-lg sm:text-xl font-normal text-neutral-500 ">
+              We're the most capital-efficient humanoid company, run by Oxford
+              engineers & global robotics competition champions.
+            </h3>
+          </div>
         </div>
       </div>
     </div>
