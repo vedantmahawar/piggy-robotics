@@ -64,7 +64,7 @@ export default function Home() {
       </div>
       {/* Cost */}
       <div className="w-full border-b-2 border-dashed border-neutral-300">
-        <div className="xl:border-l-2 xl:border-r-2 border-dashed w-full max-w-6xl mx-auto px-8 xl:px-0 border-neutral-300 sm:grid sm:grid-cols-4 items-center py-20 relative">
+        <div className="xl:border-l-2 xl:border-r-2 border-dashed w-full max-w-6xl mx-auto px-8 xl:px-0 border-neutral-300 sm:grid sm:grid-cols-4 items-center py-10 sm:py-20 relative">
           <DotPattern
             glow={true}
             className={
@@ -91,7 +91,7 @@ export default function Home() {
       </div>
       {/* Technology */}
       <div className="w-full border-dashed border-neutral-300 relative  overflow-hidden">
-        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance border-t-2 border-b-2 xl:border-l-2 xl:border-r-2 border-neutral-300 py-20 bg-[#f9f9f9] -my-[2px]">
+        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance border-t-2 border-b-2 xl:border-l-2 xl:border-r-2 border-neutral-300 py-10 sm:py-20 bg-[#f9f9f9] -my-[2px]">
           <div className="sm:px-10 ">
             <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
               Technology
@@ -171,7 +171,7 @@ export default function Home() {
       </div>
       {/* The Competition */}
       <div className="w-full border-t-2 border-dashed border-neutral-300 relative">
-        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 p-10 py-20 xl:border-l-2 xl:border-r-2 border-dashed border-neutral-300 text-balance text-center overflow-hidden">
+        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 py-10 sm:py-20 xl:border-l-2 xl:border-r-2 border-dashed border-neutral-300 text-balance text-center overflow-hidden">
           <div className="sm:px-10">
             <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
               Comparison
