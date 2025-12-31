@@ -29,8 +29,8 @@ export default function Home() {
           <h1 className="tracking-tight text-5xl sm:text-6xl font-semibold mb-2">
             Humanoids for the <br /> price of an iPhone
           </h1>
-          <h2 className="text-lg sm:text-2xl font-medium mb-4 sm:mb-6">
-            Built to scale from day one
+          <h2 className="text-lg sm:text-2xl font-medium mb-4 sm:mb-6 text-neutral-800">
+            We're the most captial-efficient humanoid company
           </h2>
         </div>
         {/* Our Belief */}
