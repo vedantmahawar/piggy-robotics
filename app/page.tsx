@@ -197,8 +197,8 @@ export default function Home() {
       </div>
       {/* Use Cases */}
       <div className="w-full border-t-2 border-b-2 border-dashed border-neutral-300 relative">
-        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 border-2 border-neutral-300 bg-[#f9f9f9] -my-[2px] text-balance text-left p-10 py-20">
-          <div className="px-10">
+        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 border-2 border-neutral-300 bg-[#f9f9f9] -my-[2px] text-balance text-left p-10 sm:py-20">
+          <div className="sm:px-10">
             <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
               Use Cases
             </h4>
@@ -217,14 +217,14 @@ export default function Home() {
               Earth is filled with places mass-produced humanoids could make
               accessible to humanity.
             </h3>
-            <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-6 mb-20">
+            <div className="flex flex-col grid grid-rows-4 sm:grid-cols-2 sm:grid-rows-2 gap-6 mb-20">
               <div className="aspect-video">
                 <Image
                   src="/useCases/desert.jpg"
                   alt="Desert"
                   width={3553}
                   height={1987}
-                  className="w-full h-full object-cover rounded-xl pointer-events-none select-none shadow-xl"
+                  className="w-full h-full object-cover rounded-md sm:rounded-xl pointer-events-none select-none shadow-xl"
                 />
               </div>
               <div className="aspect-video">
@@ -233,7 +233,7 @@ export default function Home() {
                   alt="Mountain"
                   width={3000}
                   height={2000}
-                  className="w-full h-full object-cover rounded-xl pointer-events-none select-none shadow-xl"
+                  className="w-full h-full object-cover rounded-md sm:rounded-xl pointer-events-none select-none shadow-xl"
                 />
               </div>
               <div className="aspect-video">
@@ -242,7 +242,7 @@ export default function Home() {
                   alt="Ocean"
                   width={1280}
                   height={853}
-                  className="w-full h-full object-cover rounded-xl pointer-events-none select-none shadow-xl"
+                  className="w-full h-full object-cover rounded-md sm:rounded-xl pointer-events-none select-none shadow-xl"
                 />
               </div>
               <div className="aspect-video">
@@ -251,18 +251,18 @@ export default function Home() {
                   alt="Forest"
                   width={1350}
                   height={900}
-                  className="w-full h-full object-cover rounded-xl pointer-events-none select-none shadow-xl"
+                  className="w-full h-full object-cover rounded-md sm:rounded-xl pointer-events-none select-none shadow-xl"
                 />
               </div>
             </div>
-            <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance text-right">
+            <div className="w-full max-w-6xl mx-auto xl:px-0 text-balance text-right">
               <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
                 Use Cases
               </h4>
               <h2 className="text-4xl sm:text-5xl font-medium mb-2">
                 Never do your chores again
               </h2>
-              <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
+              <h3 className="text-lg sm:text-xl font-normal text-neutral-500">
                 We believe in making humanoids accessible to all, not just the
                 wealthy. Whether it's cleaning your dishes or your bathroom, a
                 humanoid can do it all.

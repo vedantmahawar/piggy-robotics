@@ -13,7 +13,7 @@ import "./globals.css";
 import { poppins } from "./fonts";
 
 export const metadata: Metadata = {
-  title: "Piggy robotics",
+  title: "Piggy Robotics",
   description: "Humanoids for the price of an iPhone",
 };
 
