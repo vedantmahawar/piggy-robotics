@@ -82,9 +82,9 @@ export default function Home() {
               As cheap as an iPhone
             </h2>
             <h3 className="text-lg sm:text-xl font-normal text-neutral-500">
-              In order to achieve mass production, we've built a humanoid for &lt;$1,000.
-              The world already buys a billion smartphones a year, a billion
-              humanoids are next.
+              In order to achieve mass production, we've built a humanoid for
+              &lt;$1,000. The world already buys a billion smartphones a year, a
+              billion humanoids are next.
             </h3>
           </div>
         </div>
@@ -113,8 +113,8 @@ export default function Home() {
                 <CircleDollarSign className="text-blue-500 mb-2" />
                 <h3 className="text-xl sm:text-2xl font-medium">Low-cost</h3>
                 <p className="text-md sm:text-lg text-neutral-500 text-center">
-                  Unlike electric actuators, which our competitors use, artificial
-                  muscles are much cheaper, and more human
+                  Unlike electric actuators, which our competitors use,
+                  artificial muscles are much cheaper, and more human
                 </p>
               </div>
               {/* Mass */}
@@ -276,7 +276,7 @@ export default function Home() {
               "-z-10 [mask-image:radial-gradient(400px_circle_at_center,white,transparent)]"
             }
           />
-          <div className="border-b-2 border-neutral-300 py-20 sm:py-30 -my-[2px] px-8">
+          <div className="py-20 sm:py-30 px-8">
             <h2 className="text-4xl sm:text-5xl font-medium mb-2">
               Making the impossible possible
             </h2>
