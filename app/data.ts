@@ -29,7 +29,7 @@ export const comparisonData = {
     {
       name: "Piggy Robotics",
       highlighted: true,
-      values: ["<$1,000", "1 month", "Artifical muscles", "22", "16"],
+      values: ["<$1,000", "2 months", "Artifical muscles", "22", "16"],
     },
     // Tesla
     {

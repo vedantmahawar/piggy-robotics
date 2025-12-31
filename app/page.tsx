@@ -52,7 +52,7 @@ export default function Home() {
                   Tesla required billions of miles of driving data from millions
                   of vehicles worldwide to enable self driving with just two
                   degrees of freedom. Humanoids have &gt;50 degrees of freedom,
-                  meaning they require much more data to reach autonomy.
+                  meaning they will require much more data to become autonomous.
                 </h3>
               </div>
               <div className="relative size-80 sm:size-120 shrink-0">
@@ -82,7 +82,7 @@ export default function Home() {
               As cheap as an iPhone
             </h2>
             <h3 className="text-lg sm:text-xl font-normal text-neutral-500">
-              To achieve mass production we've built a humanoid for &lt;$1,000.
+              In order to achieve mass production, we've built a humanoid for &lt;$1,000.
               The world already buys a billion smartphones a year, a billion
               humanoids are next.
             </h3>
@@ -100,7 +100,7 @@ export default function Home() {
               Proprietary artificial muscles
             </h2>
             <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
-              Our humanoid is so cheap because we've designed it around low-cost
+              Our humanoid is so cheap because it's been designed around
               artificial muscles from day one.
             </h3>
             <div className="grid grid-cols-1 grid-rows-4 sm:grid-rows-2 sm:grid-cols-10 lg:grid-cols-11 xl:grid-cols-12 border-dashed border-3">
@@ -113,7 +113,7 @@ export default function Home() {
                 <CircleDollarSign className="text-blue-500 mb-2" />
                 <h3 className="text-xl sm:text-2xl font-medium">Low-cost</h3>
                 <p className="text-md sm:text-lg text-neutral-500 text-center">
-                  Unlike competitors who use electric actuators our artificial
+                  Unlike electric actuators, which our competitors use, artificial
                   muscles are much cheaper, and more human
                 </p>
               </div>
