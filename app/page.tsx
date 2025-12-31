@@ -34,26 +34,11 @@ export default function Home() {
       {/* Our Belief */}
       <div className="overflow-hidden ">
         <div className="w-full border-b-2 border-dashed border-neutral-300 relative">
-          {/* Radials */}
-          <div>
+          <div className="relative z-10 -my-[2px] w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance text-left flex sm:flex-row flex-col justify-center items-center bg-[#f9f9f9] border-t-2 border-b-2 xl:border-l-2 xl:border-r-2 border-t-4 border-neutral-300 py-10 sm:py-0 overflow-hidden">
             <div
-              className="absolute -bottom-15 right-[calc((100vw-1152px)/2-120px)] h-30 w-30 -z-10
+              className="absolute -bottom-20 -left-15 h-30 w-60 -z-10
             bg-radial from-orange-300 to-transparent blur-3xl"
             />
-            <div
-              className="absolute -bottom-0 right-[calc((100vw-1152px)/2-60px)] h-30 w-30 -z-10
-            bg-radial from-red-300 to-transparent blur-3xl"
-            />
-            <div
-              className="absolute -bottom-15 left-[calc((100vw-1152px)/2-120px)] h-30 w-30 -z-10
-            bg-radial from-cyan-300 to-transparent blur-3xl"
-            />
-            <div
-              className="absolute -bottom-0 left-[calc((100vw-1152px)/2-60px)] h-30 w-30 -z-10
-            bg-radial from-purple-300 to-transparent blur-3xl"
-            />
-          </div>
-          <div className="relative z-10 -my-[2px] w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance text-left flex sm:flex-row flex-col justify-center items-center bg-[#f9f9f9] border-t-2 border-b-2 xl:border-l-2 xl:border-r-2 border-t-4 border-neutral-300 py-10 sm:py-0">
             <div className="sm:ps-10">
               <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
                 Our Belief
