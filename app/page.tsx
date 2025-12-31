@@ -100,8 +100,8 @@ export default function Home() {
       </div>
       {/* Technology */}
       <div className="w-full border-dashed border-neutral-300 relative ">
-        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance border-2 border-neutral-300 p-10 py-20 bg-[#f9f9f9] -my-[2px]">
-          <div className="px-10 ">
+        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance border-t-2 border-b-2 xl:border-l-2 xl:border-r-2 border-neutral-300 py-20 bg-[#f9f9f9] -my-[2px]">
+          <div className="sm:px-10 ">
             <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
               Technology
             </h4>
@@ -112,13 +112,13 @@ export default function Home() {
               Our humanoid is so cheap because we've designed it around low-cost
               artificial muscles from day one.
             </h3>
-            <div className="grid grid-rows-2 grid-cols-12 border-dashed border-3">
+            <div className="grid grid-rows-4 sm:grid-rows-2 sm:grid-cols-12 border-dashed border-3">
               {/* Striped */}
-              <div className="row-span-2 col-span-1 row-start-1 col-start-1 relative flex h-full w-full flex-col items-center justify-center overflow-hidden border-r-3 border-dashed ">
+              <div className="hidden sm:block sm:row-span-2 sm:col-span-1 sm:row-start-1 sm:col-start-1 relative flex h-full w-full flex-col items-center justify-center overflow-hidden border-r-3 border-dashed ">
                 <StripedPattern className="[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]" />
               </div>
               {/* Low Cost */}
-              <div className="p-4 row-span-1 col-span-6 row-start-1 col-start-2 border-b-3 border-r-3 border-dashed flex flex-col justify-center items-center">
+              <div className="p-4 row-start-1 row-span-1 sm:col-span-6 sm:row-start-1 sm:col-start-2 border-b-3 sm:border-r-3 border-dashed flex flex-col justify-center items-center">
                 <CircleDollarSign className="text-blue-500 mb-2" />
                 <h3 className="text-xl sm:text-2xl font-medium">Low-cost</h3>
                 <p className="text-md sm:text-lg text-neutral-500 text-center">
@@ -127,7 +127,7 @@ export default function Home() {
                 </p>
               </div>
               {/* Mass */}
-              <div className="p-4 row-span-1 col-span-6 row-start-2 col-start-2 border-r-3 border-dashed flex flex-col justify-center items-center">
+              <div className="p-4 row-start-2 row-span-1 sm:col-span-6 sm:row-start-2 sm:col-start-2 border-b-3 sm:border-b-0 sm:border-r-3 border-dashed flex flex-col justify-center items-center">
                 <ChartNoAxesCombined className="text-blue-500 mb-2" />
                 <h3 className="text-xl sm:text-2xl font-medium">
                   Easily mass producible
@@ -138,11 +138,11 @@ export default function Home() {
                 </p>
               </div>
               {/* Striped */}
-              <div className="row-span-2 col-span-1 row-start-1 col-start-8 relative flex h-full w-full flex-col items-center justify-center overflow-hidden border-r-3 border-dashed ">
+              <div className="hidden sm:block sm:row-span-2 sm:col-span-1 sm:row-start-1 sm:col-start-8 relative flex h-full w-full flex-col items-center justify-center overflow-hidden border-r-3 border-dashed ">
                 <StripedPattern className="[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]" />
               </div>
               {/* Graphic */}
-              <div className="row-span-2 col-span-4 row-start-1 col-start-9 relative aspect-[1/1]">
+              <div className="row-span-2 row-start-3 sm:row-span-2 sm:col-span-4 sm:row-start-1 sm:col-start-9 relative aspect-[1/1]">
                 <svg
                   className="absolute inset-0 w-full h-full"
                   viewBox="0 0 75 75"
