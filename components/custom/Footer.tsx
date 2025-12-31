@@ -12,7 +12,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <div className="overflow-hidden">
-      <div className="w-full mx-auto max-w-6xl flex flex-col sm:flex-row justify-between border-t border-neutral-400 py-5 px-5 xl:px-0">
+      <div className="w-full mx-auto max-w-6xl flex flex-col sm:flex-row justify-between py-5 px-5 xl:px-0">
         <Link href="/">
           <Image
             src="/logo.png"
