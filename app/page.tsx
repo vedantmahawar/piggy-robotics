@@ -2,6 +2,7 @@
 import { Iphone } from "@/components/ui/iphone";
 import { Globe } from "@/components/ui/globe";
 import StripedPattern from "@/components/ui/striped-pattern";
+import { DotPattern } from "@/components/ui/dot-pattern";
 
 // custom components
 import BackedYC from "@/components/custom/BackedYC";
@@ -74,27 +75,14 @@ export default function Home() {
       </div>
       {/* Cost */}
       <div className="w-full border-b-2 border-dashed border-neutral-300">
-        {/* <div className="border-l-2 border-r-2 border-dashed w-full max-w-6xl mx-auto px-8 xl:px-0 -mt-50 -mb-10 border-neutral-300">
-          <div className=" text-balance text-right rotate-90">
-            <Iphone className="-z-10 h-200">
-              <div className="size-full flex flex-col items-center justify-center text-center rotate-270 pe-11 max-w-3xl">
-                <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
-                  Cost
-                </h4>
-                <h2 className="text-4xl sm:text-5xl font-medium mb-2">
-                  As cheap as an iPhone
-                </h2>
-                <h3 className="text-lg sm:text-xl font-normal text-neutral-500 px-10">
-                  To achieve mass production we've built a humanoid for
-                  &lt;$1,000. The world already buys a billion smartphones a year,
-                  a billion humanoids are next.
-                </h3>
-              </div>
-            </Iphone>
-          </div>
-        </div> */}
-        <div className="border-l-2 border-r-2 border-dashed w-full max-w-6xl mx-auto px-8 xl:px-0 border-neutral-300 grid grid-cols-4 items-center py-20">
-          <Iphone className="-rotate-5 -z-10 h-100 col-span-1"></Iphone>
+        <div className="border-l-2 border-r-2 border-dashed w-full max-w-6xl mx-auto px-8 xl:px-0 border-neutral-300 grid grid-cols-4 items-center py-20 relative">
+          <DotPattern
+            glow={true}
+            className={
+              "-z-10 [mask-image:radial-gradient(700px_circle_at_center,white,transparent)]"
+            }
+          />
+          <Iphone className="-rotate-5 -z-10 h-100 col-span-1 ml-5"></Iphone>
           <div className="px-10 text-balance text-right col-span-3">
             <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
               Cost
@@ -293,6 +281,12 @@ export default function Home() {
             We're the most capital-efficient humanoid company, run by Oxford
             engineers & global robotics competition champions.
           </h3>
+          <DotPattern
+            glow={true}
+            className={
+              "-z-10 [mask-image:radial-gradient(700px_circle_at_center,white,transparent)]"
+            }
+          />
         </div>
       </div>
     </div>
