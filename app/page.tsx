@@ -6,7 +6,8 @@ import { DotPattern } from "@/components/ui/dot-pattern";
 
 // custom components
 import BackedYC from "@/components/custom/BackedYC";
-import ComparsionTable from "@/components/custom/ComparisonTable";
+import DesktopComparisonTable from "@/components/custom/DesktopComparisonTable";
+import MobileComparisonTable from "@/components/custom/MobileComparisonTable";
 
 // icons
 import { CircleDollarSign, ChartNoAxesCombined } from "lucide-react";
@@ -182,7 +183,7 @@ export default function Home() {
       </div>
       {/* The Competition */}
       <div className="w-full border-t-2 border-dashed border-neutral-300 relative">
-        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 p-10 py-20 border-l-2 border-r-2 border-dashed border-neutral-300 text-balance text-center overflow-hidden">
+        <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 p-10 py-20 xl:border-l-2 xl:border-r-2 border-dashed border-neutral-300 text-balance text-center overflow-hidden">
           <div className="sm:px-10">
             <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
               Comparison
@@ -193,7 +194,12 @@ export default function Home() {
             <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
               Only capable of manufacturing a few hundred humanoids per year.
             </h3>
-            <ComparsionTable data={comparisonData} />
+            <div className="hidden lg:block">
+              <DesktopComparisonTable data={comparisonData} />
+            </div>
+            <div className="lg:hidden">
+              <MobileComparisonTable data={comparisonData} />
+            </div>
           </div>
         </div>
       </div>

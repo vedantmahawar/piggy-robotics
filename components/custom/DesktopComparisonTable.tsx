@@ -11,7 +11,7 @@ import { ComparisonData } from "@/app/data";
 
 import { BorderBeam } from "@/components/ui/border-beam";
 
-export default function ComparsionTable({ data }: { data: ComparisonData }) {
+export default function DekstopComparsionTable({ data }: { data: ComparisonData }) {
   return (
     <div className="relative rounded-md">
       <div
