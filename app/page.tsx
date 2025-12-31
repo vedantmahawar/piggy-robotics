@@ -36,7 +36,7 @@ export default function Home() {
         {/* Our Belief */}
         <div className="overflow-hidden">
           <div className="w-full border-b-2 border-dashed border-neutral-300 relative">
-            <div className="relative z-10 -my-[2px] w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance text-left flex sm:flex-row flex-col justify-center items-center bg-[#f9f9f9] border-t-2 border-b-2 xl:border-l-2 xl:border-r-2 border-t-4 border-neutral-300 py-10 sm:py-0 overflow-hidden">
+            <div className="relative z-10 -my-[2px] w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance text-left flex sm:flex-row flex-col justify-center items-center bg-[#f9f9f9] border-t-2 border-b-2 xl:border-l-2 xl:border-r-2 border-t-4 border-neutral-300 py-10 lg:py-0  overflow-hidden">
               <div
                 className="absolute -bottom-20 -left-15 h-30 w-60 -z-10
             bg-radial from-orange-300 to-transparent blur-3xl"
