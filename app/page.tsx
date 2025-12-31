@@ -63,8 +63,8 @@ export default function Home() {
         </div>
       </div>
       {/* Cost */}
-      <div className="w-full border-b-2 border-dashed border-neutral-300">
-        <div className="xl:border-l-2 xl:border-r-2 border-dashed w-full max-w-6xl mx-auto px-8 xl:px-0 border-neutral-300 sm:grid sm:grid-cols-4 items-center py-10 sm:py-20 relative">
+      <div className="w-full">
+        <div className="xl:border-l-2 xl:border-r-2 border-dashed w-full max-w-6xl mx-auto px-8 xl:px-0 border-neutral-300 sm:grid sm:grid-cols-4 items-center py-10 sm:py-20 relative ">
           <DotPattern
             glow={true}
             className={
@@ -74,7 +74,7 @@ export default function Home() {
           <div className="hidden sm:block">
             <Iphone className="-rotate-5 -z-10 h-100 col-span-1 ml-5"></Iphone>
           </div>
-          <div className="sm:px-10 text-balance text-right sm:col-span-3">
+          <div className="sm:px-10 text-balance text-center sm:text-right sm:col-span-3">
             <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
               Cost
             </h4>
@@ -90,7 +90,7 @@ export default function Home() {
         </div>
       </div>
       {/* Technology */}
-      <div className="w-full border-dashed border-neutral-300 relative  overflow-hidden">
+      <div className="w-full border-t-2 border-b-2 border-dashed border-neutral-300 relative">
         <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance border-t-2 border-b-2 xl:border-l-2 xl:border-r-2 border-neutral-300 py-10 sm:py-20 bg-[#f9f9f9] -my-[2px]">
           <div className="sm:px-10 ">
             <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
@@ -170,7 +170,7 @@ export default function Home() {
         </div>
       </div>
       {/* The Competition */}
-      <div className="w-full border-t-2 border-dashed border-neutral-300 relative">
+      <div className="w-full relative">
         <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 py-10 sm:py-20 xl:border-l-2 xl:border-r-2 border-dashed border-neutral-300 text-balance text-center overflow-hidden">
           <div className="sm:px-10">
             <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">

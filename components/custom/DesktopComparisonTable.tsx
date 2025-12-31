@@ -61,15 +61,15 @@ export default function DekstopComparsionTable({
       <BorderBeam
         borderWidth={2}
         duration={15}
-        colorFrom="#a3a3a3"
-        colorTo="#909090ff"
+        colorFrom="#3b82f6"
+        colorTo="#3b82f6"
       />
       <BorderBeam
         delay={7.5}
         borderWidth={2}
         duration={15}
-        colorFrom="#a3a3a3"
-        colorTo="#909090ff"
+        colorFrom="#3b82f6"
+        colorTo="#3b82f6"
       />
     </div>
   );
