@@ -75,15 +75,17 @@ export default function Home() {
       </div>
       {/* Cost */}
       <div className="w-full border-b-2 border-dashed border-neutral-300">
-        <div className="border-l-2 border-r-2 border-dashed w-full max-w-6xl mx-auto px-8 xl:px-0 border-neutral-300 grid grid-cols-4 items-center py-20 relative">
+        <div className="xl:border-l-2 xl:border-r-2 border-dashed w-full max-w-6xl mx-auto px-8 xl:px-0 border-neutral-300 sm:grid sm:grid-cols-4 items-center py-20 relative">
           <DotPattern
             glow={true}
             className={
               "-z-10 [mask-image:radial-gradient(700px_circle_at_center,white,transparent)]"
             }
           />
-          <Iphone className="-rotate-5 -z-10 h-100 col-span-1 ml-5"></Iphone>
-          <div className="px-10 text-balance text-right col-span-3">
+          <div className="hidden sm:block">
+            <Iphone className="-rotate-5 -z-10 h-100 col-span-1 ml-5"></Iphone>
+          </div>
+          <div className="sm:px-10 text-balance text-right sm:col-span-3">
             <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
               Cost
             </h4>
