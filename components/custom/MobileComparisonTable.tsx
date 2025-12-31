@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 // default components
 import {
@@ -19,18 +19,26 @@ import { ComparisonData } from "@/app/data";
 // React
 import { useState } from "react";
 
-export default function MobileComparsionTable({ data }: { data: ComparisonData }) {
+export default function MobileComparsionTable({
+  data,
+}: {
+  data: ComparisonData;
+}) {
   const [competitor, setCompetitor] = useState(1);
 
   const piggyData = data.competitors[0];
   const competitorData = data.competitors[competitor];
 
   const handlePrev = () => {
-    setCompetitor((prev) => (prev === 1 ? data.competitors.length - 1 : prev - 1));
+    setCompetitor((prev) =>
+      prev === 1 ? data.competitors.length - 1 : prev - 1,
+    );
   };
 
   const handleNext = () => {
-    setCompetitor((prev) => (prev === data.competitors.length - 1 ? 1 : prev + 1));
+    setCompetitor((prev) =>
+      prev === data.competitors.length - 1 ? 1 : prev + 1,
+    );
   };
 
   return (
@@ -59,7 +67,9 @@ export default function MobileComparsionTable({ data }: { data: ComparisonData }
           <TableBody>
             <TableRow>
               <TableCell className="w-1/2 text-center bg-[#f0f0f0] font-medium text-black">
-                <p className="text-xs text-neutral-500 mb-1">{piggyData.name}</p>
+                <p className="text-xs text-neutral-500 mb-1">
+                  {piggyData.name}
+                </p>
                 <p>
                   {piggyData.values[featureIndex] === false
                     ? "—"
@@ -67,7 +77,9 @@ export default function MobileComparsionTable({ data }: { data: ComparisonData }
                 </p>
               </TableCell>
               <TableCell className="w-1/2 text-center">
-                <p className="text-xs text-neutral-500 mb-1">{competitorData.name}</p>
+                <p className="text-xs text-neutral-500 mb-1">
+                  {competitorData.name}
+                </p>
                 <p>
                   {competitorData.values[featureIndex] === false
                     ? "—"

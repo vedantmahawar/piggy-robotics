@@ -37,20 +37,20 @@ export default function Home() {
           {/* Radials */}
           <div>
             <div
-              className="absolute -bottom-15 right-65 h-30 w-30 -z-10
+              className="absolute -bottom-15 right-[calc((100vw-1152px)/2-120px)] h-30 w-30 -z-10
             bg-radial from-orange-300 to-transparent blur-3xl"
             />
             <div
-              className="absolute -bottom-0 right-80 h-30 w-30 -z-10
+              className="absolute -bottom-0 right-[calc((100vw-1152px)/2-60px)] h-30 w-30 -z-10
             bg-radial from-red-300 to-transparent blur-3xl"
             />
             <div
-              className="absolute -bottom-15 left-65 h-30 w-30 -z-10
-            bg-radial from-green-300 to-transparent blur-3xl"
+              className="absolute -bottom-15 left-[calc((100vw-1152px)/2-120px)] h-30 w-30 -z-10
+            bg-radial from-cyan-300 to-transparent blur-3xl"
             />
             <div
-              className="absolute -bottom-0 left-80 h-30 w-30 -z-10
-            bg-radial from-sky-300 to-transparent blur-3xl"
+              className="absolute -bottom-0 left-[calc((100vw-1152px)/2-60px)] h-30 w-30 -z-10
+            bg-radial from-purple-300 to-transparent blur-3xl"
             />
           </div>
           <div className="relative z-10 -my-[2px] w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance text-left flex sm:flex-row flex-col justify-center items-center bg-[#f9f9f9] border-t-2 border-b-2 xl:border-l-2 xl:border-r-2 border-t-4 border-neutral-300 py-10 sm:py-0">
@@ -102,7 +102,7 @@ export default function Home() {
         </div>
       </div>
       {/* Technology */}
-      <div className="w-full border-dashed border-neutral-300 relative ">
+      <div className="w-full border-dashed border-neutral-300 relative  overflow-hidden">
         <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance border-t-2 border-b-2 xl:border-l-2 xl:border-r-2 border-neutral-300 py-20 bg-[#f9f9f9] -my-[2px]">
           <div className="sm:px-10 ">
             <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
