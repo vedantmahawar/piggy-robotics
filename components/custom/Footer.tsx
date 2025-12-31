@@ -37,7 +37,7 @@ export default function Footer() {
         bg-radial from-sky-300 to-transparent blur-3xl"
         />
         <p>
-          © 2025 Piggy Robotics. <br className="sm:hidden" />
+          © 2026 Piggy Robotics. <br className="sm:hidden" />
           Designed by{" "}
           <ExternalLink link="https://www.vedantmahawar.com" color="nocolor">
             Vedant Mahawar

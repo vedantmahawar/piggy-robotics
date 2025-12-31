@@ -11,7 +11,7 @@ import { ComparisonData } from "@/app/data";
 
 import { BorderBeam } from "@/components/ui/border-beam";
 
-export default function DekstopComparsionTable({
+export default function DesktopComparsionTable({
   data,
 }: {
   data: ComparisonData;
