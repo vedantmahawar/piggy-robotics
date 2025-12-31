@@ -52,22 +52,22 @@ export default function Home() {
             bg-radial from-sky-300 to-transparent blur-3xl"
             />
           </div>
-          <div className="relative z-10 -my-[2px] w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance text-left flex flex-row justify-center items-center bg-[#f9f9f9] border-2 border-t-4 border-neutral-300">
-            <div className="ps-10">
+          <div className="relative z-10 -my-[2px] w-full max-w-6xl mx-auto px-8 xl:px-0 text-balance text-left flex sm:flex-row flex-col justify-center items-center bg-[#f9f9f9] border-t-2 border-b-2 xl:border-l-2 xl:border-r-2 border-t-4 border-neutral-300 py-10 sm:py-0">
+            <div className="sm:ps-10">
               <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
                 Our Belief
               </h4>
               <h2 className="text-4xl sm:text-5xl font-medium mb-2">
                 Mass production before autonomy
               </h2>
-              <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
+              <h3 className="text-lg sm:text-xl font-normal sm:mb-10 text-neutral-500">
                 Tesla required billions of miles of driving data from millions
                 of vehicles worldwide to enable self driving with just two
                 degrees of freedom. Humanoids have &gt;50 degrees of freedom,
                 meaning they require much more data to reach autonomy.
               </h3>
             </div>
-            <div className="relative size-120 shrink-0">
+            <div className="relative size-80 sm:size-120 shrink-0">
               <Globe />
             </div>
           </div>
