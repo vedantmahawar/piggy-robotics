@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 pt-30 pb-20 sm:py-40 text-center text-balance flex flex-col items-center">
+      <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 pt-30 pb-15 sm:py-40 text-center text-balance flex flex-col items-center">
         <BackedYC link="https://www.ycombinator.com/companies/piggy-robotics" />
         <h1 className="tracking-tight text-5xl sm:text-6xl font-semibold mb-2">
           Humanoids for the <br /> price of an iPhone
@@ -114,7 +114,7 @@ export default function Home() {
               Our humanoid is so cheap because we've designed it around low-cost
               artificial muscles from day one.
             </h3>
-            <div className="grid grid-rows-4 sm:grid-rows-2 sm:grid-cols-12 border-dashed border-3">
+            <div className="grid grid-cols-1 grid-rows-4 sm:grid-rows-2 sm:grid-cols-12 border-dashed border-3">
               {/* Striped */}
               <div className="hidden sm:block sm:row-span-2 sm:col-span-1 sm:row-start-1 sm:col-start-1 relative flex h-full w-full flex-col items-center justify-center overflow-hidden border-r-3 border-dashed ">
                 <StripedPattern className="[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]" />
@@ -183,7 +183,7 @@ export default function Home() {
       {/* The Competition */}
       <div className="w-full border-t-2 border-dashed border-neutral-300 relative">
         <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 p-10 py-20 border-l-2 border-r-2 border-dashed border-neutral-300 text-balance text-center overflow-hidden">
-          <div className="px-10">
+          <div className="sm:px-10">
             <h4 className="text-lg sm:text-normal font-medium mb-2 text-blue-500">
               Comparison
             </h4>
@@ -219,7 +219,7 @@ export default function Home() {
               Earth is filled with places mass-produced humanoids could make
               accessible to humanity.
             </h3>
-            <div className="flex flex-col grid grid-rows-4 sm:grid-cols-2 sm:grid-rows-2 gap-6 mb-20">
+            <div className="flex flex-col grid grid-rows-4 sm:grid-cols-2 sm:grid-rows-2 gap-4 sm:gap-6 mb-20">
               <div className="aspect-video">
                 <Image
                   src="/useCases/desert.jpg"
