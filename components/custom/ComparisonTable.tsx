@@ -14,14 +14,22 @@ import { BorderBeam } from "@/components/ui/border-beam";
 export default function ComparsionTable({ data }: { data: ComparisonData }) {
   return (
     <div className="relative rounded-md">
-      <Table>
+      <div
+        className="absolute -bottom-15 -left-15 h-90 w-96 -z-10 blur-3xl
+        bg-radial from-orange-200/80 to-transparent"
+      />
+      <div
+        className="absolute -bottom-15 -right-15 h-90 w-90 -z-10 blur-3xl
+        bg-radial from-sky-200/80 to-transparent"
+      />
+      <Table className="bg-[#f9f9f9]">
         <TableHeader>
           <TableRow>
             <TableHead className="text-left">Features</TableHead>
             {data.competitors.map((competitor) => (
               <TableHead
                 key={competitor.name}
-                className={`text-center ${competitor.highlighted ? "bg-neutral-200 text-black" : ""}`}
+                className={`text-center ${competitor.highlighted ? "bg-[#f0f0f0] text-black" : ""}`}
               >
                 {competitor.name}
               </TableHead>
@@ -35,7 +43,7 @@ export default function ComparsionTable({ data }: { data: ComparisonData }) {
               {data.competitors.map((competitor, colIndex) => (
                 <TableCell
                   key={`${competitor.name}-${colIndex}`}
-                  className={`text-center ${competitor.highlighted ? "font-medium bg-neutral-200 text-black" : ""}`}
+                  className={`text-center ${competitor.highlighted ? "font-medium bg-[#f0f0f0] text-black" : ""}`}
                 >
                   {competitor.values[rowIndex] === false
                     ? "—"
