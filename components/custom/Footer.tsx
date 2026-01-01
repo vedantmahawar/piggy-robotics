@@ -14,14 +14,14 @@ export default function Footer() {
     <div>
       <div className="border-t-2 border-neutral-300 max-w-6xl mx-auto w-full -my-[2px]"></div>
       <div className="overflow-hidden">
-        <div className="w-full mx-auto max-w-6xl flex flex-col sm:flex-row justify-between py-5 px-5 xl:px-0">
+        <div className="w-full mx-auto max-w-6xl flex flex-col sm:flex-row justify-between py-5 px-5 xl:px-0 ">
           <Link href="/">
             <Image
               src="/logo.png"
               alt="Logo"
               width={100}
               height={100}
-              className="w-16 sm:w-20"
+              className="w-16 sm:w-20 mb-6 sm:mb-0"
             />
           </Link>
           <div className="flex flex-row gap-20">
