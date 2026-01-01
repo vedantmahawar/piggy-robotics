@@ -157,8 +157,7 @@ export default function Home() {
                   Easily mass producible
                 </h3>
                 <p className="text-md sm:text-lg text-neutral-500 text-center">
-                  Each muscle is just a tube wrapped in braided fibre, and a
-                  single pump powers the whole robot
+                  Each muscle is just a tube wrapped in braided fibre, and the whole robot is powered by a single pump
                 </p>
               </div>
               {/* Striped */}
