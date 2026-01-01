@@ -3,11 +3,14 @@ import { Iphone } from "@/components/ui/iphone";
 import { Globe } from "@/components/ui/globe";
 import StripedPattern from "@/components/ui/striped-pattern";
 import { DotPattern } from "@/components/ui/dot-pattern";
+import { Button } from "@/components/ui/button";
 
 // custom components
 import BackedYC from "@/components/custom/BackedYC";
 import DesktopComparisonTable from "@/components/custom/DesktopComparisonTable";
 import MobileComparisonTable from "@/components/custom/MobileComparisonTable";
+import ViewportElement from "@/components/custom/ViewportElement";
+import ExternalLink from "@/components/custom/ExternalLink";
 
 // icons
 import { CircleDollarSign, ChartNoAxesCombined } from "lucide-react";
@@ -29,9 +32,39 @@ export default function Home() {
           <h1 className="tracking-tight text-5xl sm:text-6xl font-semibold mb-2">
             Humanoids for the <br /> price of an iPhone
           </h1>
-          <h2 className="text-lg sm:text-2xl font-medium mb-4 sm:mb-6 text-neutral-800">
-            We're the most captial-efficient humanoid company
+          <h2 className="text-lg sm:text-2xl font-medium mb-4 text-neutral-800">
+            We're the most capital-efficient humanoid company
           </h2>
+          <Button
+            id="mainCTA"
+            size="lg"
+            className="shadow-lg shadow-black/30 transition-all hover:scale-[1.05]"
+          >
+            <ExternalLink
+              link="mailto:founders@piggyrobotics.com"
+              color="nocolor"
+              className="font-normal"
+            >
+              Connect With Us
+            </ExternalLink>
+          </Button>
+          <ViewportElement
+            targetSelector="#mainCTA"
+            className="hidden sm:block"
+          >
+            <Button
+              size="lg"
+              className="fixed top-3 right-3 z-10 shadow-lg shadow-black/30 transition-all hover:scale-[1.05]"
+            >
+              <ExternalLink
+                link="mailto:founders@piggyrobotics.com"
+                color="nocolor"
+                className="font-normal"
+              >
+                Connect With Us
+              </ExternalLink>
+            </Button>
+          </ViewportElement>
         </div>
         {/* Our Belief */}
         <div className="overflow-hidden">
@@ -280,10 +313,22 @@ export default function Home() {
             <h2 className="text-4xl sm:text-5xl font-medium mb-2">
               Making the impossible possible
             </h2>
-            <h3 className="text-lg sm:text-xl font-normal text-neutral-500 ">
+            <h3 className="text-lg sm:text-xl font-normal text-neutral-500 mb-4">
               We're the most capital-efficient humanoid company, run by Oxford
               engineers & global robotics competition champions.
             </h3>
+            <Button
+              size="lg"
+              className="shadow-lg shadow-black/30 transition-all hover:scale-[1.05]"
+            >
+              <ExternalLink
+                link="mailto:founders@piggyrobotics.com"
+                color="nocolor"
+                className="font-normal"
+              >
+                Connect With Us
+              </ExternalLink>
+            </Button>
           </div>
         </div>
       </div>
