@@ -50,7 +50,7 @@ export default function Home() {
           </Button>
           <ViewportElement
             targetSelector="#mainCTA"
-            className="hidden sm:block"
+            className="hidden sm:block z-20"
           >
             <Button
               size="lg"
