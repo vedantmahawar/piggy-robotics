@@ -303,7 +303,7 @@ export default function Home() {
       <div className="w-full sm:border-b-2 border-dashed border-neutral-300 relative">
         <div className="w-full max-w-6xl mx-auto xl:px-0 text-balance text-center xl:border-l-2 xl:border-r-2 border-dashed border-neutral-300 relative">
           <DotPattern className="-z-10 [mask-image:radial-gradient(800px_300px_at_center,transparent,white)]" />
-          <div className="py-20 sm:py-30 px-8">
+          <div className="py-10 sm:py-20 px-8">
             <h2 className="text-4xl sm:text-5xl font-medium mb-2">
               Making the impossible possible
             </h2>
