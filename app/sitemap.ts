@@ -2,7 +2,7 @@
 import { MetadataRoute } from "next";
 
 // data
-import { baseURL } from "@/app/data"
+import { baseURL } from "@/app/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
