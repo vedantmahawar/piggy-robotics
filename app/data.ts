@@ -52,4 +52,4 @@ export const comparisonData = {
   ],
 };
 
-export const baseURL = "https://piggy-demo.vercel.app/"
+export const baseURL = "https://piggy-demo.vercel.app/";

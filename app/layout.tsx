@@ -13,7 +13,7 @@ import "./globals.css";
 import { poppins } from "./fonts";
 
 // data
-import { baseURL } from "@/app/data"
+import { baseURL } from "@/app/data";
 
 export const metadata: Metadata = {
   title: "Piggy Robotics",

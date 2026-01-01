@@ -10,8 +10,8 @@ export default function Home() {
           sixteen elite hardware & software engineers
         </span>{" "}
         from <span className="font-semibold">Oxford University</span> & top
-        global robotics competitions (yes, we attended robotics competitions like
-        the{" "}
+        global robotics competitions (yes, we attended robotics competitions
+        like the{" "}
         <span className="font-semibold">
           IEEE/RSJ International Conference on Intelligent Robots and Systems
         </span>{" "}
@@ -34,19 +34,23 @@ export default function Home() {
         <br />
         <span className="font-semibold">Chenny</span>, our other cofounder,
         trained AI models to read{" "}
-        <span className="font-semibold">human motion</span> while doing her <span className="font-semibold">PhD in Computer Science</span> at Oxford
+        <span className="font-semibold">human motion</span> while doing her{" "}
+        <span className="font-semibold">PhD in Computer Science</span> at Oxford
         University. She previously worked on AI at{" "}
         <span className="font-semibold">Tencent</span>.
         <br />
         <br />
-        Together, we spent a year inside factories across the world deploying humanoid robots in real production environments.
+        Together, we spent a year inside factories across the world deploying
+        humanoid robots in real production environments.
         <br />
         <br />
         <span className="font-bold bg-yellow-200">Speed</span> is our culture at
-        Piggy Robotics. Everyone works, sleeps, and lives in our six-story hacker house, where we prototype daily.
+        Piggy Robotics. Everyone works, sleeps, and lives in our six-story
+        hacker house, where we prototype daily.
         <br />
         <br />
-        Given our technical capacity, domain-specific knowledge, and culture, we believe we can match incumbents & their humanoids within a year.
+        Given our technical capacity, domain-specific knowledge, and culture, we
+        believe we can match incumbents & their humanoids within a year.
       </p>
     </div>
   );
