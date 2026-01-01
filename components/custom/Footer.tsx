@@ -24,6 +24,23 @@ export default function Footer() {
               className="w-16 sm:w-20"
             />
           </Link>
+          <div className="flex flex-row gap-20">
+            <div>
+              <p className="font-semibold mb-1">Company</p>
+              <Link href="/our-team">
+                <p>Team</p>
+              </Link>
+            </div>
+            <div>
+              <p className="font-semibold mb-1">Support</p>
+              <ExternalLink
+                link="mailto:founders@piggyrobotics.com"
+                color="nocolor"
+              >
+                <p>Contact Us</p>
+              </ExternalLink>
+            </div>
+          </div>
         </div>
         <div className="relative w-full mx-auto max-w-6xl flex justify-between py-5 px-5 xl:px-0 items-center">
           <div
