@@ -38,7 +38,7 @@ export default function Home() {
           <Button
             id="mainCTA"
             size="lg"
-            className="shadow-lg shadow-black/30 transition-all hover:scale-[1.05]"
+            className="cursor-pointer shadow-lg shadow-black/30 transition-all hover:scale-[1.05]"
           >
             <ExternalLink
               link="mailto:founders@piggyrobotics.com"
@@ -54,7 +54,7 @@ export default function Home() {
           >
             <Button
               size="lg"
-              className="fixed top-3 right-3 z-10 shadow-lg shadow-black/30 transition-all hover:scale-[1.05]"
+              className="cursor-pointer fixed top-3 right-3 z-10 shadow-lg shadow-black/30 transition-all hover:scale-[1.05]"
             >
               <ExternalLink
                 link="mailto:founders@piggyrobotics.com"
@@ -314,7 +314,7 @@ export default function Home() {
             </h3>
             <Button
               size="lg"
-              className="shadow-lg shadow-black/30 transition-all hover:scale-[1.05]"
+              className="cursor-pointer shadow-lg shadow-black/30 transition-all hover:scale-[1.05]"
             >
               <ExternalLink
                 link="mailto:founders@piggyrobotics.com"
