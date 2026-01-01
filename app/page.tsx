@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div>
       <div className="relative">
-        <DotPattern className="-z-20 absolute inset-0 [mask-image:radial-gradient(900px_circle_at_center,transparent,white)]" />
+        <DotPattern className="-z-20 absolute inset-0 [mask-image:radial-gradient(1200px_circle_at_center,transparent,white)]" />
         {/* Hero */}
         <div className="w-full max-w-6xl mx-auto px-8 xl:px-0 pt-30 pb-15 sm:py-35 text-center text-balance flex flex-col items-center">
           <BackedYC link="https://www.ycombinator.com/companies/piggy-robotics" />
