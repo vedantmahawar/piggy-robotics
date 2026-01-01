@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function NotFound() {
   return (
-    <div className="w-full max-w-3xl mx-auto pt-30 pb-20 sm:py-40 text-center flex flex-col items-center justify-center min-h-[calc(100vh-157px)]">
+    <div className="w-full max-w-3xl mx-auto pt-30 pb-20 sm:py-40 text-center flex flex-col items-center justify-center min-h-[calc(100vh-192px)] sm:min-h-[calc(100vh-184px)]">
       <h1 className="tracking-tight text-8xl sm:text-9xl font-semibold mb-2">
         404
       </h1>
