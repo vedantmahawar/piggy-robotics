@@ -306,7 +306,7 @@ export default function Home() {
           <DotPattern
             glow={true}
             className={
-              "-z-10 [mask-image:radial-gradient(400px_circle_at_center,white,transparent)]"
+              "-z-10 "
             }
           />
           <div className="py-20 sm:py-30 px-8">
