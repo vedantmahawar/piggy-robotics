@@ -62,14 +62,14 @@ interface DotPatternProps extends React.SVGProps<SVGSVGElement> {
  */
 
 export function DotPattern({
-  width = 16,
-  height = 16,
+  width = 36,
+  height = 36,
   x = 0,
   y = 0,
   cx = 1,
   cy = 1,
   cr = 1,
-  className,
+  className = "-z-20",
   glow = false,
   ...props
 }: DotPatternProps) {
