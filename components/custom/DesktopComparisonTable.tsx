@@ -20,11 +20,11 @@ export default function DesktopComparsionTable({
     <div className="relative rounded-md">
       <div
         className="absolute -bottom-15 -left-15 h-90 w-96 -z-10 blur-3xl
-        bg-radial from-orange-200/80 to-transparent"
+        bg-radial from-sky-200 to-transparent"
       />
       <div
         className="absolute -bottom-15 -right-15 h-90 w-90 -z-10 blur-3xl
-        bg-radial from-sky-200/80 to-transparent"
+        bg-radial from-sky-200 to-transparent"
       />
       <Table className="bg-[#f9f9f9]">
         <TableHeader>
@@ -62,14 +62,14 @@ export default function DesktopComparsionTable({
         borderWidth={2}
         duration={15}
         colorFrom="#3b82f6"
-        colorTo="#3b82f6"
+        colorTo="#60a5fa"
       />
       <BorderBeam
         delay={7.5}
         borderWidth={2}
         duration={15}
         colorFrom="#3b82f6"
-        colorTo="#3b82f6"
+        colorTo="#60a5fa"
       />
     </div>
   );
