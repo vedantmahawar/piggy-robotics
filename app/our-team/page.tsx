@@ -40,11 +40,11 @@ export default function Home() {
         <span className="font-semibold">Tencent</span>.
         <br />
         <br />
-        Together, we spent a year inside factories across the world deploying
+        Together, they spent a year inside factories across the world deploying
         humanoid robots in real production environments.
         <br />
         <br />
-        <span className="font-bold bg-yellow-200">Speed</span> is our culture at
+        <span className="font-bold bg-yellow-200">Speed</span> is the culture at
         Piggy Robotics. Everyone works, sleeps, and lives in our six-story
         hacker house, where we prototype daily.
         <br />

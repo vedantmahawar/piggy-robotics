@@ -83,9 +83,10 @@ export default function Home() {
                 </h2>
                 <h3 className="text-lg sm:text-xl font-normal text-neutral-500">
                   Tesla required billions of miles of driving data from millions
-                  of vehicles worldwide to enable self driving with just two
+                  of vehicles worldwide to enable self-driving with just two
                   degrees of freedom. Humanoids have &gt;50 degrees of freedom,
-                  meaning they will require much more data to become autonomous.
+                  meaning they will require significantly more data to become
+                  autonomous.
                 </h3>
               </div>
               <div className="relative size-80 sm:size-120 shrink-0">
@@ -115,7 +116,7 @@ export default function Home() {
             </h2>
             <h3 className="text-lg sm:text-xl font-normal text-neutral-500">
               In order to achieve mass production, we've built a humanoid for
-              &lt;$1,000. The world already buys a billion smartphones a year, a
+              &lt;$1,000. The world already buys a billion smartphones a year; a
               billion humanoids are next.
             </h3>
           </div>
@@ -146,7 +147,7 @@ export default function Home() {
                 <h3 className="text-xl sm:text-2xl font-medium">Low-cost</h3>
                 <p className="text-md sm:text-lg text-neutral-500 text-center">
                   Unlike electric actuators, which our competitors use,
-                  artificial muscles are much cheaper, and more human
+                  artificial muscles are much cheaper and more human
                 </p>
               </div>
               {/* Mass */}
@@ -156,8 +157,8 @@ export default function Home() {
                   Easily mass producible
                 </h3>
                 <p className="text-md sm:text-lg text-neutral-500 text-center">
-                  Each muscle is just a tube wrapped in braided fibre, and the
-                  whole robot is powered by a single pump
+                  Each muscle is just a tube wrapped in braided fibre, and a
+                  single pump powers the whole robot
                 </p>
               </div>
               {/* Striped */}
@@ -231,7 +232,7 @@ export default function Home() {
               Use Cases
             </h4>
             <h2 className="text-4xl sm:text-5xl font-medium mb-2">
-              Access the inaccesible
+              Access the inaccessible
             </h2>
             <h3 className="text-lg sm:text-xl font-normal mb-10 text-neutral-500">
               Whether it's in the
