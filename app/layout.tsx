@@ -12,9 +12,27 @@ import "./globals.css";
 // fonts
 import { poppins } from "./fonts";
 
+// data
+import { baseURL } from "@/app/data"
+
 export const metadata: Metadata = {
   title: "Piggy Robotics",
-  description: "Humanoids for the price of an iPhone",
+  description: "Humanoids for the price of iPhones",
+  metadataBase: new URL(baseURL),
+  // openGraph: {
+  //   type: "website",
+  //   siteName: "Piggy Robotics",
+  //   title: "Piggy Robotics",
+  //   description: "Humanoids for the price of iPhones",
+  //   images: [
+  //     {
+  //       url: "/opengraph-image.png",
+  //       width: 1200,
+  //       height: 630,
+  //       alt: "Piggy Robotics",
+  //     },
+  //   ],
+  // },
 };
 
 export default function RootLayout({
