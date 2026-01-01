@@ -1,17 +1,19 @@
+// Next
 import { MetadataRoute } from "next";
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://boilerplate.com";
+// data
+import { baseURL } from "@/app/data"
 
+export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: baseUrl,
+      url: baseURL,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 1,
     },
     {
-      url: `${baseUrl}/secondarypage`,
+      url: `${baseURL}/our-team`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 0.7,
