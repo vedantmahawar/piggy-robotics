@@ -5,6 +5,7 @@ import Footer from "@/components/custom/Footer";
 // Next
 import type { Metadata } from "next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 // CSS
 import "./globals.css";
@@ -47,6 +48,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
